@@ -1,0 +1,403 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+      "txHash": "0xb736856ef8409801e4fbc8a58a6c2d66c8a6cf2c215cb7d591706d1cbc887a6f",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "0a7649eb2f8ca939995e04fe892c034bb1c60532a3c698934923e0eae032d469": {
+      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+      "txHash": "0x2f7b4847c41451d4b9870b4fbb16fcb93a3a2d1639fb6c8245cec23b66561d54",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "contract": "ERC1967UpgradeUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\ERC1967\\ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "contract": "UUPSUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\UUPSUpgradeable.sol:107"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "contract": "Swello",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "contracts\\Swello.sol:125"
+          },
+          {
+            "contract": "Swello",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "contracts\\Swello.sol:126"
+          },
+          {
+            "contract": "Swello",
+            "label": "_decimals",
+            "type": "t_uint8",
+            "src": "contracts\\Swello.sol:127"
+          },
+          {
+            "contract": "Swello",
+            "label": "initialDistributionFinished",
+            "type": "t_bool",
+            "src": "contracts\\Swello.sol:130"
+          },
+          {
+            "contract": "Swello",
+            "label": "swapEnabled",
+            "type": "t_bool",
+            "src": "contracts\\Swello.sol:131"
+          },
+          {
+            "contract": "Swello",
+            "label": "autoRebase",
+            "type": "t_bool",
+            "src": "contracts\\Swello.sol:132"
+          },
+          {
+            "contract": "Swello",
+            "label": "isLiquidityInBnb",
+            "type": "t_bool",
+            "src": "contracts\\Swello.sol:133"
+          },
+          {
+            "contract": "Swello",
+            "label": "rewardYield",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:135"
+          },
+          {
+            "contract": "Swello",
+            "label": "rewardYieldDenominator",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:136"
+          },
+          {
+            "contract": "Swello",
+            "label": "rebaseFrequency",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:138"
+          },
+          {
+            "contract": "Swello",
+            "label": "nextRebase",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:139"
+          },
+          {
+            "contract": "Swello",
+            "label": "autoLPFrequency",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:141"
+          },
+          {
+            "contract": "Swello",
+            "label": "nextAutoLP",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:142"
+          },
+          {
+            "contract": "Swello",
+            "label": "_isFeeExempt",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\Swello.sol:144"
+          },
+          {
+            "contract": "Swello",
+            "label": "_markerPairs",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "contracts\\Swello.sol:145"
+          },
+          {
+            "contract": "Swello",
+            "label": "automatedMarketMakerPairs",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\Swello.sol:146"
+          },
+          {
+            "contract": "Swello",
+            "label": "liquidityReceiver",
+            "type": "t_address",
+            "src": "contracts\\Swello.sol:168"
+          },
+          {
+            "contract": "Swello",
+            "label": "treasuryReceiver",
+            "type": "t_address",
+            "src": "contracts\\Swello.sol:169"
+          },
+          {
+            "contract": "Swello",
+            "label": "safetyFundReceiver",
+            "type": "t_address",
+            "src": "contracts\\Swello.sol:170"
+          },
+          {
+            "contract": "Swello",
+            "label": "charityReceiver",
+            "type": "t_address",
+            "src": "contracts\\Swello.sol:171"
+          },
+          {
+            "contract": "Swello",
+            "label": "busdToken",
+            "type": "t_address",
+            "src": "contracts\\Swello.sol:172"
+          },
+          {
+            "contract": "Swello",
+            "label": "router",
+            "type": "t_contract(IDEXRouter)2503",
+            "src": "contracts\\Swello.sol:174"
+          },
+          {
+            "contract": "Swello",
+            "label": "pair",
+            "type": "t_address",
+            "src": "contracts\\Swello.sol:175"
+          },
+          {
+            "contract": "Swello",
+            "label": "pairBusd",
+            "type": "t_address",
+            "src": "contracts\\Swello.sol:176"
+          },
+          {
+            "contract": "Swello",
+            "label": "liquidityFee",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:178"
+          },
+          {
+            "contract": "Swello",
+            "label": "treasuryFee",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:179"
+          },
+          {
+            "contract": "Swello",
+            "label": "safetyFundFee",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:180"
+          },
+          {
+            "contract": "Swello",
+            "label": "sellFeeliquidityAdded",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:181"
+          },
+          {
+            "contract": "Swello",
+            "label": "totalBuyFee",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:182"
+          },
+          {
+            "contract": "Swello",
+            "label": "totalSellFee",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:183"
+          },
+          {
+            "contract": "Swello",
+            "label": "bonfireBalanceThresholds",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "contracts\\Swello.sol:185"
+          },
+          {
+            "contract": "Swello",
+            "label": "bonfireFees",
+            "type": "t_array(t_uint256)dyn_storage",
+            "src": "contracts\\Swello.sol:186"
+          },
+          {
+            "contract": "Swello",
+            "label": "feeDenominator",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:188"
+          },
+          {
+            "contract": "Swello",
+            "label": "bonfireBurn",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:190"
+          },
+          {
+            "contract": "Swello",
+            "label": "bonfireTreasury",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:191"
+          },
+          {
+            "contract": "Swello",
+            "label": "bonfireCharity",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:192"
+          },
+          {
+            "contract": "Swello",
+            "label": "bonfireDenominator",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:193"
+          },
+          {
+            "contract": "Swello",
+            "label": "targetLiquidity",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:195"
+          },
+          {
+            "contract": "Swello",
+            "label": "targetLiquidityDenominator",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:196"
+          },
+          {
+            "contract": "Swello",
+            "label": "totalLiquidityFee",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:198"
+          },
+          {
+            "contract": "Swello",
+            "label": "totalTreasuryFee",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:199"
+          },
+          {
+            "contract": "Swello",
+            "label": "totalSafetyFundFee",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:200"
+          },
+          {
+            "contract": "Swello",
+            "label": "totalCharityFee",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:201"
+          },
+          {
+            "contract": "Swello",
+            "label": "totalBurnFee",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:202"
+          },
+          {
+            "contract": "Swello",
+            "label": "inSwap",
+            "type": "t_bool",
+            "src": "contracts\\Swello.sol:204"
+          },
+          {
+            "contract": "Swello",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:206"
+          },
+          {
+            "contract": "Swello",
+            "label": "_gonsPerFragment",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:207"
+          },
+          {
+            "contract": "Swello",
+            "label": "gonSwapThreshold",
+            "type": "t_uint256",
+            "src": "contracts\\Swello.sol:208"
+          },
+          {
+            "contract": "Swello",
+            "label": "_gonBalances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\Swello.sol:210"
+          },
+          {
+            "contract": "Swello",
+            "label": "_allowedFragments",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "contracts\\Swello.sol:211"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_contract(IDEXRouter)2503": {
+            "label": "contract IDEXRouter"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  }
+}

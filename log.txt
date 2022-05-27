@@ -1,0 +1,63 @@
+Network: Binance Smart Chain (testnet)
+owner: 0x550de398ab6B32a2804bA73026674fAecF5ED783
+user1: 0x462749719956e8B31220Fe4bE20f5b88E8C84352
+user2: 0xD40dD0dA968c857719aE2C11C531d681E384A7DB
+chain id: 97
+............... BUSD Deploying ................
+Re-used existing Busd Token Address:  at 0x56931DcC6BA515E1A1e1BDF2E182f67868F6D002
+*****************************
+     Token Information     
+*****************************
+token name: BUSD Token
+token symbol: BUSD
+token decimal: 18
+token total supply: 800000000.0
+............... SWLO Deploying ................
+Router:  0x9Ac64Cc6e4415144C455BD8E4837Fea55603e5c3
+busd:  0x56931DcC6BA515E1A1e1BDF2E182f67868F6D002
+Re-used existing Swello Token Address:  at 0x306D3a5A0DEC2aA13e66532BFFC9753B7764eD4E
+*****************************
+     Token Information     
+*****************************
+token name: Swello Token
+token symbol: SWLO
+token decimal: 18
+token total supply: 4000000000.0
+Initial Distribution completion tx:  0xcbc52954da62c616eb462d5cd56f35efdd6c8a7c52dd35eca16c9df3b39533ef
+............... Test Transfering ................
+SWL: owner -> user1 tx:  0x88b445ce787a57f2b832d0bbf3e669097363d7f3a4094548f74693579f06a07c
+owner balance: 3999900000.0
+user1 balance: 100000.0
+user2 balance: 0.0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+SWL: owner -> user2 tx:  0xd8737492849a740026cc2528ccf1c3620fa8c30f7293ab9564818b56e35bbe43
+owner balance: 3999800000.0
+user1 balance: 100000.0
+user2 balance: 100000.0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+BUSD: owner -> user1 tx:  0x719b71da15b65cb5f4d9799420d797fad7fc1b770945aff1178e91644476b56e
+owner balance: 799900000.0
+user1 balance: 100000.0
+user2 balance: 0.0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+BUSD: owner -> user2 tx:  0x25fb2dfdda52b4e401f993abb6bcbee5ed8b0210a10d184f41c50af46794387b
+owner balance: 799800000.0
+user1 balance: 100000.0
+user2 balance: 100000.0
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+............... Adding liquidity ................
+SWL-BNB LP token address:  0xf0e28457f11213044293d7f2FC56Fb07FD99Cc50
+SWL-BUSD LP token address:  0xa30B34087700397a6b356C61a4Da84d0C38bEA23
+approve tx:  0x603ecfea94a47c3a227e9a9ebf5693e26503f4e44979e44bd2c9bc034de2f1df
+SWL-BNB add liquidity tx:  0xdc8375e60ddbb88f1f432132fd966d8ed272538855c21871186f73b75cd7b5df
+SWL-BUSD add liquidity tx:  0x83dac8d21b5e4196b7f137b2c5adbe7125a2f812bc70855704c31bea5bb8ec4b
+
+SWL-BNB Pool Reserves:
+tokenA: 1000000.0
+tokenB: 0.1
+tokenA price: $ 1.0000000000000001e-7
+
+SWL-BUSD Pool Reserves:
+tokenA: 1000000.0
+tokenB: 1000000.0
+tokenA price: $ 1
